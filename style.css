@@ -34,12 +34,24 @@
 }
 
 .header_title {
+  font-size: 47px;
+  width: 123px;
+  margin: 0%;
 }
 
 .header_lang_link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  text-decoration: none;
 }
 
 .header_lang_container {
+  transform: rotate(-90deg);
+  padding: 0px;
+  width: 65px;
+  height: 20px;
+  margin: 0px;
 }
 
 .header_image {
@@ -48,5 +60,36 @@
   object-fit: cover;
 }
 
-.header_subtitle {
+.header_subtitle-container {
+  max-width: 155px;
+  display: flex;
+  align-items: center;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.header_seprator {
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  font-weight: 550;
+
+}
+
+.header_subtitle-text{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 340;
+  margin: 0%;
+}
+
+.header_lang_link_active{
+color: black;
+
 }
